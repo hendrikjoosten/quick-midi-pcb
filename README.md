@@ -1,2 +1,3 @@
-# quick-midi-pbc
+# quick-midi-pcb
+
  
