@@ -1,0 +1,389 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_Push_Dual SW1
+U 1 1 5FCE2D3C
+P 2550 2550
+F 0 "SW1" H 2550 2835 50  0000 C CNN
+F 1 "SW_Push_Dual" H 2550 2744 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2550 2750 50  0001 C CNN
+F 3 "~" H 2550 2750 50  0001 C CNN
+	1    2550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5FCE9391
+P 2350 2550
+F 0 "#PWR0101" H 2350 2400 50  0001 C CNN
+F 1 "VCC" V 2365 2677 50  0000 L CNN
+F 2 "" H 2350 2550 50  0001 C CNN
+F 3 "" H 2350 2550 50  0001 C CNN
+	1    2350 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 2750 2350 2550
+Connection ~ 2350 2550
+Wire Wire Line
+	2750 2550 2750 2750
+Text GLabel 2750 2750 2    50   Input ~ 0
+1
+$Comp
+L Switch:SW_Push_Dual SW2
+U 1 1 5FCEA80F
+P 2550 3200
+F 0 "SW2" H 2550 3485 50  0000 C CNN
+F 1 "SW_Push_Dual" H 2550 3394 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2550 3400 50  0001 C CNN
+F 3 "~" H 2550 3400 50  0001 C CNN
+	1    2550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5FCEA815
+P 2350 3200
+F 0 "#PWR0102" H 2350 3050 50  0001 C CNN
+F 1 "VCC" V 2365 3327 50  0000 L CNN
+F 2 "" H 2350 3200 50  0001 C CNN
+F 3 "" H 2350 3200 50  0001 C CNN
+	1    2350 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 3400 2350 3200
+Connection ~ 2350 3200
+Wire Wire Line
+	2750 3200 2750 3400
+Text GLabel 2750 3400 2    50   Input ~ 0
+2
+$Comp
+L Switch:SW_Push_Dual SW3
+U 1 1 5FCEDB62
+P 3750 2600
+F 0 "SW3" H 3750 2885 50  0000 C CNN
+F 1 "SW_Push_Dual" H 3750 2794 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3750 2800 50  0001 C CNN
+F 3 "~" H 3750 2800 50  0001 C CNN
+	1    3750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5FCEDB68
+P 3550 2600
+F 0 "#PWR0103" H 3550 2450 50  0001 C CNN
+F 1 "VCC" V 3565 2727 50  0000 L CNN
+F 2 "" H 3550 2600 50  0001 C CNN
+F 3 "" H 3550 2600 50  0001 C CNN
+	1    3550 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 2800 3550 2600
+Connection ~ 3550 2600
+Wire Wire Line
+	3950 2600 3950 2800
+Text GLabel 3950 2800 2    50   Input ~ 0
+3
+$Comp
+L Switch:SW_Push_Dual SW4
+U 1 1 5FCEDB72
+P 3750 3250
+F 0 "SW4" H 3750 3535 50  0000 C CNN
+F 1 "SW_Push_Dual" H 3750 3444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3750 3450 50  0001 C CNN
+F 3 "~" H 3750 3450 50  0001 C CNN
+	1    3750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 5FCEDB78
+P 3550 3250
+F 0 "#PWR0104" H 3550 3100 50  0001 C CNN
+F 1 "VCC" V 3565 3377 50  0000 L CNN
+F 2 "" H 3550 3250 50  0001 C CNN
+F 3 "" H 3550 3250 50  0001 C CNN
+	1    3550 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 3450 3550 3250
+Connection ~ 3550 3250
+Wire Wire Line
+	3950 3250 3950 3450
+Text GLabel 3950 3450 2    50   Input ~ 0
+4
+$Comp
+L Switch:SW_Push_Dual SW5
+U 1 1 5FCF69DE
+P 4800 2600
+F 0 "SW5" H 4800 2885 50  0000 C CNN
+F 1 "SW_Push_Dual" H 4800 2794 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4800 2800 50  0001 C CNN
+F 3 "~" H 4800 2800 50  0001 C CNN
+	1    4800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 5FCF69E4
+P 4600 2600
+F 0 "#PWR0105" H 4600 2450 50  0001 C CNN
+F 1 "VCC" V 4615 2727 50  0000 L CNN
+F 2 "" H 4600 2600 50  0001 C CNN
+F 3 "" H 4600 2600 50  0001 C CNN
+	1    4600 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 2800 4600 2600
+Connection ~ 4600 2600
+Wire Wire Line
+	5000 2600 5000 2800
+Text GLabel 5000 2800 2    50   Input ~ 0
+5
+$Comp
+L Switch:SW_Push_Dual SW6
+U 1 1 5FCF69EE
+P 4800 3250
+F 0 "SW6" H 4800 3535 50  0000 C CNN
+F 1 "SW_Push_Dual" H 4800 3444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4800 3450 50  0001 C CNN
+F 3 "~" H 4800 3450 50  0001 C CNN
+	1    4800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5FCF69F4
+P 4600 3250
+F 0 "#PWR0106" H 4600 3100 50  0001 C CNN
+F 1 "VCC" V 4615 3377 50  0000 L CNN
+F 2 "" H 4600 3250 50  0001 C CNN
+F 3 "" H 4600 3250 50  0001 C CNN
+	1    4600 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 3450 4600 3250
+Connection ~ 4600 3250
+Wire Wire Line
+	5000 3250 5000 3450
+Text GLabel 5000 3450 2    50   Input ~ 0
+6
+$Comp
+L Switch:SW_Push_Dual SW7
+U 1 1 5FCF69FE
+P 6000 2650
+F 0 "SW7" H 6000 2935 50  0000 C CNN
+F 1 "SW_Push_Dual" H 6000 2844 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 6000 2850 50  0001 C CNN
+F 3 "~" H 6000 2850 50  0001 C CNN
+	1    6000 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5FCF6A04
+P 5800 2650
+F 0 "#PWR0107" H 5800 2500 50  0001 C CNN
+F 1 "VCC" V 5815 2777 50  0000 L CNN
+F 2 "" H 5800 2650 50  0001 C CNN
+F 3 "" H 5800 2650 50  0001 C CNN
+	1    5800 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 2850 5800 2650
+Connection ~ 5800 2650
+Wire Wire Line
+	6200 2650 6200 2850
+Text GLabel 6200 2850 2    50   Input ~ 0
+7
+$Comp
+L Switch:SW_Push_Dual SW8
+U 1 1 5FCF6A0E
+P 6000 3300
+F 0 "SW8" H 6000 3585 50  0000 C CNN
+F 1 "SW_Push_Dual" H 6000 3494 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 6000 3500 50  0001 C CNN
+F 3 "~" H 6000 3500 50  0001 C CNN
+	1    6000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 5FCF6A14
+P 5800 3300
+F 0 "#PWR0108" H 5800 3150 50  0001 C CNN
+F 1 "VCC" V 5815 3427 50  0000 L CNN
+F 2 "" H 5800 3300 50  0001 C CNN
+F 3 "" H 5800 3300 50  0001 C CNN
+	1    5800 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3500 5800 3300
+Connection ~ 5800 3300
+Wire Wire Line
+	6200 3300 6200 3500
+Text GLabel 6200 3500 2    50   Input ~ 0
+8
+$Comp
+L Mechanical:MountingHole_Pad Hpower1
+U 1 1 5FCF93AC
+P 8900 1200
+F 0 "Hpower1" V 8854 1350 50  0000 L CNN
+F 1 "MountingHole_Pad" V 8945 1350 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 8900 1200 50  0001 C CNN
+F 3 "~" H 8900 1200 50  0001 C CNN
+	1    8900 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5FCF9FFE
+P 8150 4200
+F 0 "H4" V 8387 4203 50  0000 C CNN
+F 1 "MountingHole_Pad" V 8296 4203 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 8150 4200 50  0001 C CNN
+F 3 "~" H 8150 4200 50  0001 C CNN
+	1    8150 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5FCFA506
+P 8150 3800
+F 0 "H3" V 8387 3803 50  0000 C CNN
+F 1 "MountingHole_Pad" V 8296 3803 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 8150 3800 50  0001 C CNN
+F 3 "~" H 8150 3800 50  0001 C CNN
+	1    8150 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FCFAFD0
+P 8150 3200
+F 0 "H2" V 8387 3203 50  0000 C CNN
+F 1 "MountingHole_Pad" V 8296 3203 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 8150 3200 50  0001 C CNN
+F 3 "~" H 8150 3200 50  0001 C CNN
+	1    8150 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FCFAFD6
+P 8150 2800
+F 0 "H1" V 8387 2803 50  0000 C CNN
+F 1 "MountingHole_Pad" V 8296 2803 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 8150 2800 50  0001 C CNN
+F 3 "~" H 8150 2800 50  0001 C CNN
+	1    8150 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5FCFBFC6
+P 9550 4250
+F 0 "H8" V 9787 4253 50  0000 C CNN
+F 1 "MountingHole_Pad" V 9696 4253 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 9550 4250 50  0001 C CNN
+F 3 "~" H 9550 4250 50  0001 C CNN
+	1    9550 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5FCFBFCC
+P 9550 3850
+F 0 "H7" V 9787 3853 50  0000 C CNN
+F 1 "MountingHole_Pad" V 9696 3853 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 9550 3850 50  0001 C CNN
+F 3 "~" H 9550 3850 50  0001 C CNN
+	1    9550 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 5FCFBFD2
+P 9550 3250
+F 0 "H6" V 9787 3253 50  0000 C CNN
+F 1 "MountingHole_Pad" V 9696 3253 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 9550 3250 50  0001 C CNN
+F 3 "~" H 9550 3250 50  0001 C CNN
+	1    9550 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 5FCFBFD8
+P 9550 2850
+F 0 "H5" V 9787 2853 50  0000 C CNN
+F 1 "MountingHole_Pad" V 9696 2853 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 9550 2850 50  0001 C CNN
+F 3 "~" H 9550 2850 50  0001 C CNN
+	1    9550 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 5FCFC1BC
+P 8200 1200
+F 0 "#PWR0109" H 8200 1050 50  0001 C CNN
+F 1 "VCC" V 8215 1327 50  0000 L CNN
+F 2 "" H 8200 1200 50  0001 C CNN
+F 3 "" H 8200 1200 50  0001 C CNN
+	1    8200 1200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8250 2800 2    50   Input ~ 0
+1
+Text GLabel 8250 3200 2    50   Input ~ 0
+2
+Text GLabel 8250 3800 2    50   Input ~ 0
+3
+Text GLabel 8250 4200 2    50   Input ~ 0
+4
+Text GLabel 9650 2850 2    50   Input ~ 0
+5
+Text GLabel 9650 3250 2    50   Input ~ 0
+6
+Text GLabel 9650 3850 2    50   Input ~ 0
+7
+Text GLabel 9650 4250 2    50   Input ~ 0
+8
+$Comp
+L Device:R R1
+U 1 1 5FCFEB98
+P 8500 1200
+F 0 "R1" V 8707 1200 50  0000 C CNN
+F 1 "1M" V 8616 1200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8430 1200 50  0001 C CNN
+F 3 "~" H 8500 1200 50  0001 C CNN
+	1    8500 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8200 1200 8350 1200
+Wire Wire Line
+	8650 1200 8800 1200
+$EndSCHEMATC
